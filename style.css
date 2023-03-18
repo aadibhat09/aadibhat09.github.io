@@ -1,0 +1,146 @@
+body{
+  font-family:"Open Sans";
+  font-size:300%;
+  color:white;
+  text-align: center;
+  background-color:#3f3f3f;
+  background-image:url("Wallpaper.png");
+  background-repeat:no-repeat;
+  background-size:contain;
+}
+img{
+  border-radius: 75px;
+  text-align: center;
+}
+p{
+  color:white;
+  text-align:center;
+  font-size:50%;
+  margin-left:300px;
+  margin-right:300px;
+}
+p span{
+  color:#efc000;
+}
+a:link{
+  text-decoration:none;
+}
+.image{
+  transition: transform .2s;
+}
+.image:hover{
+  -webkit-filter: brightness(70%);
+  transform: scale(1.1);
+
+}
+img{
+  transition: transform .2s;
+}
+img:hover{
+  transform: scale(1.02);
+  box-shadow: 7px 7px 7px #333;
+}
+a img:hover{
+  -webkit-filter: brightness(110%);
+}
+
+.navigation {
+  display:inline-flex;
+  width:95%;
+  overflow: hidden;
+  border-radius:35px;
+  transition: transform .2s;
+  margin:20px;
+  background-image:url("BG.png");
+  background-size:500px;
+  justify-content: center;
+}
+.navigation:hover{
+  transform: scale(1.02);
+  box-shadow: 7px 7px 7px #333;
+}
+/* Logo (LEGOLAB) */
+.navigation .logo{
+  float: left;
+  font-family:"Righteous", "Open Sans";
+  color:#efc000;
+  font-size:40px;
+  text-align:center;
+  text-decoration:none;
+  margin-right:auto;
+  font-weight:bold;
+}
+.navigation .contabt{
+  font-family:"Open Sans";
+  float:right;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+
+/* The word "LAB" in the logo has a different color than the word "LEGO" */
+.navigation span{
+  color:white;
+}
+
+/* Style the links inside the navigation bar */
+.navigation a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navigation a:hover {
+  color:#efc000;
+}
+
+/* Download buttons on model pages */
+.download{
+  border-radius:25px;
+  background-image:url("BG.png");
+  background-size:500px;
+  overflow:hidden;
+  padding:30px 30px;
+  font-size:100%;
+  color:#efc000;
+  font-family:"Open Sans";
+  transition: transform .2s;
+}
+
+
+.download span{
+  color:white;
+}
+
+.download:hover{
+  -webkit-filter:brightness(110%);
+  transform: scale(2);
+  box-shadow: 7px 7px 7px #333;
+}
+
+iframe{
+  border-radius:20px;
+  width:1250px;
+  height:750px;
+  transition:transform .2s;
+}
+iframe:hover{
+  transform: scale(1.02);
+  box-shadow: 7px 7px 7px #333;
+}
+.contact{
+  color:white;
+  border-radius:25px;
+  border:4px solid;
+  background-color:#444;
+  border-color:#efc000;
+  overflow:hidden;
+  padding:30px 30px;
+  font-size:100%;
+  color:#efc000;
+  font-family:"Open Sans";
+}
