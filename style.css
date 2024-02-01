@@ -4,10 +4,9 @@ body{
   color:white;
   text-align: center;
   background-color:#305830;
-  background-image:url("WP.png");
-  background-repeat:repeat-x;
-  background-size:auto;
-  background-position: center top 200px;
+  /*background-image:url("BG.png");
+  background-repeat:no-repeat;
+  background-size:cover; */
 }
 img{
   border-radius: 75px;
