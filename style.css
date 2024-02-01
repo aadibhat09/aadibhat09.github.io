@@ -3,10 +3,11 @@ body{
   font-size:300%;
   color:white;
   text-align: center;
-  background-color:#01796f;
-  /* background-image:url("BG.png"); */
+  background-color:#305830;
+  background-image:url("WP.png");
   background-repeat:repeat-x;
   background-size:auto;
+  background-position: center top 200px;
 }
 img{
   border-radius: 75px;
@@ -20,7 +21,7 @@ p{
   margin-right:300px;
 }
 p span{
-  color:#01796f;
+  color:#305830;
 }
 a:link{
   text-decoration:none;
@@ -62,7 +63,7 @@ a img:hover{
 .navigation .logo{
   float: left;
   font-family:"Righteous", "Open Sans";
-  color:#01796f;
+  color:#305830;
   font-size:40px;
   text-align:center;
   text-decoration:none;
@@ -94,7 +95,7 @@ a img:hover{
 
 /* Change the color of links on hover */
 .navigation a:hover {
-  color:#01796f;
+  color:#305830;
 }
 
 /* Download buttons on model pages */
@@ -105,7 +106,7 @@ a img:hover{
   overflow:hidden;
   padding:30px 30px;
   font-size:100%;
-  color:#01796f;
+  color:#305830;
   font-family:"Open Sans";
   transition: transform .2s;
 }
@@ -136,10 +137,10 @@ iframe:hover{
   border-radius:25px;
   border:4px solid;
   background-color:#444;
-  border-color:#01796f;
+  border-color:#305830;
   overflow:hidden;
   padding:30px 30px;
   font-size:100%;
-  color:#01796f;
+  color:#305830;
   font-family:"Open Sans";
 }
